@@ -1,0 +1,173 @@
+.header {
+  display: flex;
+}
+.header_logo img {
+  width: 100px;
+}
+.header_search {
+  margin-left: 1000px;
+  margin-top: 30px;
+  flex-shrink: 0;
+}
+.header_search button{
+    background-color: orange;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.header_search input{
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.Menu {
+    background-color: beige;
+    padding:5px 0px;
+    margin-bottom: 15px;
+}
+.nvarbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+.nvarbar_link{
+    margin: 0px 34px;
+}
+.nvarbar_link a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.content{
+    display: flex;
+}
+.content_banner{
+    margin-left: 50px;
+}
+.content_banner img{
+    width: 900px;
+    height: 400px;
+}
+.content_login{
+    padding-left: 40px;
+    background-color: beige;
+    padding-right: 100px
+}
+.content_title{
+    text-align: center;
+    margin-left: 30px;
+}
+.f_input,.l_input,.p_input{
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 70px;
+}
+.send{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.send_input{
+padding: 15px 30px 15px 30px;
+border-radius: 6px;
+background-color: orange;
+color:white;
+border-color: orange;
+}
+.special_title{
+    text-align: center;
+}
+.speacial_content{
+    display: flex;
+    text-align: center;
+}
+.anh_1{     
+    margin-left: 50px;
+}
+.anh_1 img{
+    width: 450px;
+    height: 500px;
+}
+.anh_2{
+    margin-left: 80px;
+}
+.anh_2 img{
+    width: 250px;
+}
+.banner_2,.banner_3{
+    padding-left: 20px;
+}
+.content_infor{
+    /* margin-left: 120px; */
+    padding-left: 120px;
+    font-size: 20px;
+    text-align: left;
+}
+.Book{
+    width: 200px;
+    height: 40px;
+    margin-left: 350px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 15px;
+    border: groove;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+.list_title{
+    text-align: center;
+    color: orange;
+}
+.list_first{
+    display: flex;
+}
+.list_second{
+    display: flex;
+}
+.food_1{
+    display: flex;
+    text-align: left;
+    margin-left:40px;
+    margin-right: 50px;
+}
+.food_1 img{
+    width: 300px;
+    height: 200px;
+}
+.food_2{
+    display: flex;
+}
+.food_2 img{
+    width: 300px;
+    height: 200px;
+}
+.food_3{
+    display: flex;
+    margin-top: 20px;
+    margin-left:40px;
+    margin-right: 50px;
+}
+.food_3 img{
+    width: 280px;
+    height: 200px;
+}
+.food_4{
+    display: flex;
+    margin-top: 20px;
+}
+.food_4 img{
+    width: 290px;
+    height: 200px;
+}
+.price{
+    padding-top: 50px;
+    text-align: left;
+}
+.footer_info{
+    text-align: center;
+    background-color: beige;
+}
